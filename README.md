@@ -2,13 +2,19 @@
 
 Just a photo-sharing app built with ionic and a bundle of beautiful others tecnologies.
 
-## Installation
+## Starting Project
 
-TODO: Describe the installation process
+```bash
 
-## Usage
+# Install NPM dependencies
+npm install
 
-TODO: Write usage instructions
+# Install Bower dependencies
+bower install
+
+# Todo
+
+```
 
 ## Contributing
 
