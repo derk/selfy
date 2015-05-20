@@ -16,6 +16,7 @@
   "author": "Russian Rebouças",
   "license": "MIT",
   "devDependencies": {
+    "browser-sync": "^2.7.2",
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
     "gulp-flatten": "0.0.4",
