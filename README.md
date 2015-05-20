@@ -18,8 +18,6 @@ gulp serve
 # or with Ionic
 ionic serve
 
-# Todo
-
 ```
 
 ## Contributing
