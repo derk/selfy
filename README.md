@@ -12,6 +12,12 @@ npm install
 # Install Bower dependencies
 bower install
 
+# Start with BrowserSync
+gulp serve
+
+# or with Ionic Serve
+ionic serve
+
 # Todo
 
 ```
