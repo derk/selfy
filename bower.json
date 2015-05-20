@@ -1,0 +1,22 @@
+{
+  "name": "selfy",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Russian60/selfy",
+  "authors": [
+    "Russian <russian.reboucas@gmail.com>"
+  ],
+  "description": "Just a photo-sharing app built with ionic and a bundle of beautiful others tecnologies",
+  "keywords": [
+    "photo-sharing",
+    "selfie",
+    "photo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
