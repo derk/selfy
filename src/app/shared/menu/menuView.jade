@@ -1,0 +1,21 @@
+ion-side-menus(enable-menu-with-back-views='false')
+  ion-side-menu-content
+    ion-nav-bar.bar-stable
+      ion-nav-back-button
+      ion-nav-buttons(side='left')
+        button.button.button-icon.button-clear.ion-navicon(menu-toggle='left')
+    ion-nav-view(name='content')
+  ion-side-menu(side='left')
+    ion-header-bar.bar-stable
+      h1.title Left
+    ion-content
+      ion-list
+        ion-item(menu-close='', ng-click='login()')
+          | Menu 1
+        ion-item(menu-close='', href='#/app/')
+          | Menu 2
+        ion-item(menu-close='', href='#/app/')
+          | Menu 3
+        ion-item(menu-close='', href='#/app/')
+          | Menu 4
+
