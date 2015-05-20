@@ -16,7 +16,7 @@ gulp.task('jade', function() {
   gulp.src('./src/app/index.jade')
   .pipe(jade())
   .pipe(gulp.dest('./www'));
-  gulp.src('./src/app/**/*.jade')
+  gulp.src(['./src/app/components/**/*.jade', 'src/app/shared/**/*.jade'])
   .pipe(jade())
   .pipe(flatten())
   .pipe(gulp.dest('./www/views'));
