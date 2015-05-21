@@ -27,7 +27,7 @@ gulp.task('jade', function() {
 });
 
 gulp.task('stylus', function(){  
-  gulp.src('src/assets/stylesheets/*.styl')
+  gulp.src('src/assets/stylesheets/**/*.styl')
   .pipe(stylus())
   .pipe(gulp.dest('www/assets/stylesheets'))
   .pipe(reload({stream:true}));
