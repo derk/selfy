@@ -1,13 +1,13 @@
 ion-side-menus(enable-menu-with-back-views='false')
   ion-side-menu-content
-    ion-nav-bar.bar-stable
+    ion-nav-bar.bar-energized
       ion-nav-back-button
       ion-nav-buttons(side='left')
         button.button.button-icon.button-clear.ion-navicon(menu-toggle='left')
     ion-nav-view(name='content')
   ion-side-menu(side='left')
-    ion-header-bar.bar-stable
-      h1.title Left
+    ion-header-bar.bar-energized
+      h1.title Options
     ion-content
       ion-list
         ion-item(menu-close='', ng-click='login()')
@@ -18,4 +18,10 @@ ion-side-menus(enable-menu-with-back-views='false')
           | Menu 3
         ion-item(menu-close='', href='#/app/')
           | Menu 4
+        ion-item(menu-close='', href='#/app/')
+          | Menu 5
+  ion-tabs.tabs-energized.tabs-icon-only
+    ion-tab(title='Pick', icon='ion-folder')
+    ion-tab.take(title='Take', icon='ion-camera')
+    ion-tab.tab-item-active(title='Fork!', icon='ion-social-github')
 
