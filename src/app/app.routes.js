@@ -6,8 +6,10 @@ var dependencies = [
 ];
 
 angular.module('selfy', dependencies)
-.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
+.config(['$stateProvider', '$urlRouterProvider','$ionicConfigProvider' ,function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
   
+  $ionicConfigProvider.tabs.position('bottom');
+
   $stateProvider
   .state('app', {
     url: "/app",
