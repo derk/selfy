@@ -1,7 +1,8 @@
 var dependencies = [
   'ionic',
   'home.controller',
-  'menu.controller' 
+  'menu.controller',
+  'filter.controller'
 ];
 
 angular.module('selfy', dependencies)
@@ -22,7 +23,16 @@ angular.module('selfy', dependencies)
         controller: "homeController"
       }
     }
+  })
+  .state('app.filter', {
+    url: "/filter",
+    views: {
+      'content': {
+        templateUrl: "views/filterView.html",
+        controller: "filterController"
+      }
+    }
   });
 
-  $urlRouterProvider.otherwise('/app/home');
+  $urlRouterProvider.otherwise('/app/filter');
 }]);
