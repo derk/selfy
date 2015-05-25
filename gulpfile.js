@@ -39,8 +39,8 @@ gulp.task('move:libs', function() {
 });
 
 gulp.task('move:images', function() {
-  gulp.src('./src/assets/img/**/*', {base: './src/assets/img/'})
-  .pipe(gulp.dest('./www/assets/img/'))
+  gulp.src('./src/assets/images/**/*', {base: './src/assets/images/'})
+  .pipe(gulp.dest('./www/assets/images/'))
 });
 
 gulp.task('compile', ['concat', 'jade', 'stylus', 'move:libs', 'move:images']);
