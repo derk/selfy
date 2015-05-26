@@ -1,5 +1,7 @@
 # Selfy
 
+[![Join the chat at https://gitter.im/Russian60/selfy](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Russian60/selfy?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Just a photo-sharing app built with ionic and a bundle of beautiful others tecnologies.
 
 ## Starting Project
