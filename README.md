@@ -15,9 +15,6 @@ bower install
 # Start with BrowserSync :)
 gulp serve
 
-# or with Ionic
-ionic serve
-
 ```
 
 ## Contributing
